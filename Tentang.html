@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Explorer | Journey to the Stars</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="tentang.css">
+</head>
+<body>
+    <!-- Background stars -->
+    <div class="stars" id="stars"></div>
+
+    <header id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fas fa-rocket"></i>
+                    <span>Space Website</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#gallery">Galeri</a></li>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#audio">Audio</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                </ul>
+                <a href="#" class="home-btn" id="homeBtn">
+                    <i class="fas fa-home"></i> Home
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Petualangan Luar Angkasa Tak Terbatas</h1>
+                <p>Jelajahi misteri alam semesta melalui koleksi multimedia yang menakjubkan. Temukan keindahan kosmos yang belum pernah Anda lihat sebelumnya.</p>
+                <a href="#gallery" class="btn">Mulai Eksplorasi <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="planet planet-1"></div>
+    </section>
+
+    <section class="section" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Galeri Luar Angkasa</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <a href="idex.html">
+                    <img src="https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Nebula">
+                    </a>
+                    <div class="gallery-overlay">
+                        <h3>Nebula Orion</h3>
+                        <p>Area pembentuk bintang yang spektakuler</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <a href="link">
+                    <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc3774?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Galaksi">
+                    </a>
+                    <div class="gallery-overlay">
+                        <h3>Galaksi Andromeda</h3>
+                        <p>Galaksi tetangga terdekat Bima Sakti</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <a href="link">
+                    <img src="https://images.unsplash.com/photo-1502136969935-8d8eef54d77b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Bumi">
+                    </a>
+                    <div class="gallery-overlay">
+                        <h3>Planet Bumi</h3>
+                        <p>Rumah kita yang indah dilihat dari luar angkasa</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <a href="link">
+                    <img src="image/flock-of-flight-birds-over-the-sea-wallpaper-preview.jpg" alt="Videoku">
+                    </a>
+                    <div class="gallery-overlay">
+                        <h3>video ku</h3>
+                        <p>video ku yang keren</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="video">
+        <div class="container">
+            <h2 class="section-title">Video Luar Angkasa</h2>
+            <div class="video-container">
+                <iframe src="Video/video 7.mp4" title="Video Luar Angkasa" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p style="text-align: center; margin-top: 20px; color: var(--light);">Jelajahi keindahan tata surya kita melalui video menakjubkan ini</p>
+            <div class="video-container">
+                <iframe src="Video/video 2.mp4" title="Video Luar Angkasa 2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p style="text-align: center; margin-top: 20px; color: var(--light);">Saksikan pemandangan menakjubkan dari permukaan Mars</p>
+            <div class="video-container">
+                <iframe src="Video/video 3.mp4" title="Video Luar Angkasa 3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p style="text-align: center; margin-top: 20px; color: var(--light);">Nikmati perjalanan visual melalui galaksi yang jauh</p>
+        </div>
+    </section>
+
+    <section class="section" id="audio">
+        <div class="container">
+            <div class="audio-section">
+                <h2 class="section-title">Suara Luar Angkasa</h2>
+                <div class="audio-player">
+                    <h3 class="audio-title">Suara Misterius Lubang Hitam</h3>
+                    <p>Dengarkan suara frekuensi rendah dari lubang hitam di gugus galaksi Perseus</p>
+                    <audio controls>
+                        <source src="Audio/Mechamato song japan.mp3" type="audio/mpeg">
+                        Browser Anda tidak mendukung elemen audio.
+                    </audio>
+                    <p class="audio-note" style="margin-top: 15px; font-size: 0.9rem; color: var(--light);">Catatan: Audio asli dapat diakses melalui <a href="https://www.nasa.gov/audio-and-ringtones" style="color: var(--primary);">situs NASA</a>.</p>
+                </div>
+            </div>
+            <div class="audio-section">
+                <h2 class="section-title">Lagu multo</h2>
+                <div class="audio-player">
+                    <h3 class="audio-title">Multo</h3>
+                    <p>Asal dari flipina</p>
+                    <audio controls>
+                        <source src="Audio/multo.mp3" type="audio/mpeg">
+                        Browser Anda tidak mendukung elemen audio.
+                    </audio>
+                    <p class="audio-note" style="margin-top: 15px; font-size: 0.9rem; color: var(--light);">Catatan: Audio asli dapat diakses melalui <a href="" style="color: var(--primary);">Terserah</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">
+                    <i class="fas fa-rocket"></i>
+                    <span>CosmicExplorer</span>
+                </div>
+                <p>Website eksplorasi luar angkasa dengan konten multimedia yang menakjubkan</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+                <p>&copy; 2023 CosmicExplorer. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="tentang.js"></script>
+</body>
+</html>
