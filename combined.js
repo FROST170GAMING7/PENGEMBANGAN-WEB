@@ -85,12 +85,12 @@
             stopOtherVideos(video);
         });
     });
-})();https://id.pinterest.com/
+})();
 
 //Verify
 function verify() {
     var pass = document.getElementById("passInput").value;
-    var target = "https://id.pinterest.com/"; // Link yang ingin dibuka
+    var target = "https://id.pinterest.com/pin/375769162681181838/"; // Link yang ingin dibuka
     
     if (pass === "RAHASIA") {
         window.location.href = target;
@@ -98,6 +98,7 @@ function verify() {
         alert("Password salah!");
     }
 }
+
 
 
 
