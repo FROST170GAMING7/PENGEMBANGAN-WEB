@@ -86,3 +86,15 @@
         });
     });
 })();
+
+//Verify
+function verify() {
+    var pass = document.getElementById("passInput").value;
+    var target = "donkey.to"; // Link yang ingin dibuka
+    
+    if (pass === "RAHASIA") {
+        window.location.href = target;
+    } else {
+        alert("Password salah!");
+    }
+}
