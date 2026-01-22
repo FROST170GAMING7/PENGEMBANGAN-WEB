@@ -79,7 +79,7 @@
         });
     }
 
-    // Saat salah satu video diputar, hentikan video lain
+    // Saat salah satu video diputar, hentikan video lainyoutube
     videos.forEach(video => {
         video.addEventListener("play", () => {
             stopOtherVideos(video);
@@ -90,7 +90,7 @@
 //Verify
 function verify() {
     var pass = document.getElementById("passInput").value;
-    var target = "youtube.com/"; // Link yang ingin dibuka
+    var target = "www.youtube.com"; // Link yang ingin dibuka
     
     if (pass === "RAHASIA") {
         window.location.href = target;
@@ -98,3 +98,4 @@ function verify() {
         alert("Password salah!");
     }
 }
+
