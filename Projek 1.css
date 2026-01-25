@@ -108,6 +108,16 @@
             box-shadow: var(--shadow);
         }
 
+        .iframe-large {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            display: block;
+            margin: 1rem auto;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+        }
+
         .container-content p {
             text-align: justify;
             margin-top: 1rem;
