@@ -92,12 +92,13 @@ function verify() {
     var pass = document.getElementById("passInput").value;
     var target = "https://id.pinterest.com/pin/375769162681181838/"; // Link yang ingin dibuka
     
-    if (pass === "RAHASIA") {
+    if (pass === "Diu112197") {
         window.location.href = target;
     } else {
         alert("Password salah!");
     }
 }
+
 
 
 
